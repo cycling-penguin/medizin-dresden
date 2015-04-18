@@ -410,7 +410,7 @@ FUNCTION {format.editors}
     { editor format.names
       editor num.names$ #1 >
 	{ " (eds)" * } % TDS
-	{ " (ed.)" * } % TDS
+	{ " (ed)" * } % TDS
       if$
     }
   if$
